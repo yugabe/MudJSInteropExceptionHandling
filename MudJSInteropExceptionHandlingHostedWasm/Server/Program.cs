@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.ResponseCompression;
+using MudBlazor.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -6,6 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
+builder.Services.AddMudServices();
 
 var app = builder.Build();
 

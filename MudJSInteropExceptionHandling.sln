@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.33808.371
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MudJSInteropExceptionHandling", "MudJSInteropExceptionHandling\MudJSInteropExceptionHandling.csproj", "{AEDB78DD-75DF-4E2E-8F98-791B1BF22CC3}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MudJSInteropExceptionHandlingHostedWasm.Server", "MudJSInteropExceptionHandlingHostedWasm\Server\MudJSInteropExceptionHandlingHostedWasm.Server.csproj", "{BD487F2B-F0A6-4CAE-B1BD-15B775008190}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MudJSInteropExceptionHandlingHostedWasm.Client", "MudJSInteropExceptionHandlingHostedWasm\Client\MudJSInteropExceptionHandlingHostedWasm.Client.csproj", "{D26E3958-8149-4E92-BB20-4540DD0221C6}"
@@ -17,10 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AEDB78DD-75DF-4E2E-8F98-791B1BF22CC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AEDB78DD-75DF-4E2E-8F98-791B1BF22CC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AEDB78DD-75DF-4E2E-8F98-791B1BF22CC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AEDB78DD-75DF-4E2E-8F98-791B1BF22CC3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BD487F2B-F0A6-4CAE-B1BD-15B775008190}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BD487F2B-F0A6-4CAE-B1BD-15B775008190}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD487F2B-F0A6-4CAE-B1BD-15B775008190}.Release|Any CPU.ActiveCfg = Release|Any CPU
